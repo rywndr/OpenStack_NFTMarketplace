@@ -6,6 +6,7 @@
 - Create auctions where the highest bidder, after a certain period, wins the NFT
 - Make offers on unlisted NFTs
 - Create an open marketplace where any user can list NFTs for sale, like OpenSea.
+- View NFT(s) currently owned by a wallet
 
 ### Technologies used for the project
 
