@@ -10,8 +10,8 @@
 ### Technologies used for the project
 
 For this project I decided to take a bit of a different approach by using Marketplace Smart Contract that is provided by thirdweb and deployed with thirdweb, it makes it easy for beginner web3 devs to start their journey making their own dApps, and by using this Smart Contract, and the robustness of the code is ensured.
-[Marketplace V3 contract](https://thirdweb.com/thirdweb.eth/MarketplaceV3)
-[Smart Contract Source Code](https://mumbai.polygonscan.com/address/0x41E21F469eEF7b48b080b694D5879F4636D8cC0f#code)
+- [Marketplace V3 contract](https://thirdweb.com/thirdweb.eth/MarketplaceV3)
+- [Smart Contract Source Code](https://mumbai.polygonscan.com/address/0x41E21F469eEF7b48b080b694D5879F4636D8cC0f#code)
 
 The frontend application is built using React, it also uses Chakra UI, a component library for React, to style the UI components. Additionally, it uses Thirdweb SDK for interacting with smart contracts.
 
