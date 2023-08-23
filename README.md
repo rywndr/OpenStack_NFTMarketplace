@@ -1,40 +1,43 @@
-## Getting Started
+## OpenStack NFT Marketplace
 
-Create a project using this example:
+### Marketplace Smart Contract Features
 
+- Sell NFTs on marketplace
+- Create auctions where the highest bidder, after a certain period, wins the NFT
+- Make offers on unlisted NFTs
+- Create an open marketplace where any user can list NFTs for sale, like OpenSea.
+
+### Technologies used for the project
+
+For this project I decided to take a bit of a different approach by using Marketplace Smart Contract that is provided by thirdweb and deployed with thirdweb, it makes it easy for beginner web3 devs to start their journey making their own dApps, and by using this Smart Contract, and the robustness of the code is ensured.
+[Marketplace V3 contract](https://thirdweb.com/thirdweb.eth/MarketplaceV3)
+[Smart Contract Source Code](https://mumbai.polygonscan.com/address/0x41E21F469eEF7b48b080b694D5879F4636D8cC0f#code)
+
+The frontend application is built using React, it also uses Chakra UI, a component library for React, to style the UI components. Additionally, it uses Thirdweb SDK for interacting with smart contracts.
+
+### How to clone and run on your local development server:
+
+Clone
 ```bash
-npx thirdweb create --template next-typescript-starter
+git clone https://github.com/rywndr/OpenStack_NFTMarketplace.git
 ```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
-
-## Environment Variables
-
-To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
-
-## Deploy to IPFS
-
-Deploy a copy of your application to IPFS using the following command:
-
+Install necessary dependencies
 ```bash
-yarn deploy
+npm install
 ```
 
-## Learn More
+run on local development server
+```bash
+npm run dev
+```
+
+### Learn More
 
 To learn more about thirdweb and Next.js, take a look at the following resources:
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
+- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about thirdweb React SDK.
+- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about thirdweb JavaScript/TypeScript SDK.
+- [thirdweb Portal](https://docs.thirdweb.com) - check thirdweb guides and development resources.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Templates](https://thirdweb.com/templates)
-
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
