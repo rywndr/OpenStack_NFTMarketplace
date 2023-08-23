@@ -1,6 +1,7 @@
 import { Avatar, Box, Flex, Heading, Link, Text } from "@chakra-ui/react"
 import { ConnectWallet, useAddress } from "@thirdweb-dev/react"
 import NextLink from "next/link"
+import Image from "next/image"
 import styles from "../styles/Home.module.css"
 
 export const Navbar = () => {
@@ -12,7 +13,12 @@ export const Navbar = () => {
         <Flex alignItems={"center"}>
           <Link as={NextLink} href={"/"}>
             <Box w={10} h={10} borderRadius={"full"} overflow={"hidden"} mr={2}>
-              <img src={"/images/nexusmart.png"} alt={"Logo"} />
+              <Image
+                src={"/images/nexusmart.png"}
+                alt={"Logo"}
+                width={50}
+                height={50}
+              />
             </Box>
           </Link>
           <Link as={NextLink} href={"/"}>
