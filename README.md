@@ -34,6 +34,8 @@ run on local development server
 npm run dev
 ```
 
+[Live Demo](https://stellarvision.vercel.app/)
+
 ### Learn More
 
 To learn more about thirdweb and Next.js, take a look at the following resources:
